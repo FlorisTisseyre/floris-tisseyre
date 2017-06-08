@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Semantic UI CDN</title>
+	<title>Floris Tisseyre</title>
 	<link rel="stylesheet" href="semantic/out/semantic.min.css"/>
 	<script
 		src="https://code.jquery.com/jquery-3.1.1.min.js"
