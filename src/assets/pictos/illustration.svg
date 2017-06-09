@@ -16,10 +16,10 @@
       <g>
         <rect x="101.145" y="270.992" width="59.16" height="48.664" style="fill: rgb(51, 103, 126);"/>
         <g>
-          <rect transform="matrix(0.999999, 0, 0, 1, -40.251386, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
-          <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
-          <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
-          <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect transform="matrix(0.999999, 0, 0, 1, -40.251386, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
+          <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
+          <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
+          <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
         </g>
         <g transform="matrix(1, 0, 0, 1, -0.146821, 10.265379)">
           <g>
@@ -30,10 +30,10 @@
           </g>
         </g>
         <g transform="matrix(1, 0, 0, 1, -0.530292, 20.468683)">
-          <rect transform="matrix(0.999999, 0, 0, 1, -40.251386, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
-          <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
-          <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
-          <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect transform="matrix(0.999999, 0, 0, 1, -40.251386, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
+          <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
+          <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
+          <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(230, 237, 242);"/>
         </g>
       </g>
     </g>

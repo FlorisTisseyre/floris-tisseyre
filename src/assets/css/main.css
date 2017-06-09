@@ -1,5 +1,5 @@
 body {
-  background-color: #468097;
+  background-color: #14607d;
   position: relative;
 }
 .arrow.right {
@@ -16,9 +16,18 @@ body {
   width: 5em;
   z-index: 9998;
 }
+.arrowColor.background {
+  fill: #14607d;
+}
+.arrowColor {
+  fill: rgba(228, 228, 228, 0.8);
+}
+.arrowColorLighthover {
+  fill: #e4e4e4;
+}
 .dragend-page > div {
   border: 1px dashed grey;
-  background-color: #d0dae0;
+  background-color: #e4e4e4;
   width: 70%;
   margin: auto;
   height: 100%;
