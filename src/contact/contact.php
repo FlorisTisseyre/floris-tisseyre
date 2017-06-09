@@ -1,1 +1,1 @@
-TODO : insérer ici le schéma avec l'entreprise et ma proposition.<br/><br/>
+<img src="src/assets/pictos/dessinMatch.svg">

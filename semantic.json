@@ -1,5 +1,5 @@
 {
-  "base": "semantic\\",
+  "base": "semantic/",
   "paths": {
     "source": {
       "config": "src/theme.config",
@@ -8,10 +8,10 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "out\\",
-      "uncompressed": "out\\components\\",
-      "compressed": "out\\components\\",
-      "themes": "out\\themes\\"
+      "packaged": "dist/",
+      "uncompressed": "dist/components/",
+      "compressed": "dist/components/",
+      "themes": "dist/themes/"
     },
     "clean": "dist/"
   },
@@ -25,11 +25,15 @@
     "container",
     "divider",
     "flag",
+    "header",
+    "icon",
+    "image",
     "input",
     "label",
     "list",
     "loader",
     "rail",
+    "reveal",
     "segment",
     "step",
     "breadcrumb",
