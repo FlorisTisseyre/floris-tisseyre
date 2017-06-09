@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-49.286529541015625 -29.33721923828125 900 500" width="900px" height="500px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
+    </pattern>
+  </defs>
+  <rect x="-48.043" y="-27.186" width="857.859" height="496.601" style="fill: rgb(208, 218, 224);"/>
+  <g transform="matrix(0.992771, 0, 0, 1, -0.347299, 8)">
+    <g>
+      <text x="25.014" y="238.363" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Evoluer</text>
+      <path d="M 4.901 226.894 C 5.071 217.088 6.851 211.554 18.201 211.665 L 141.701 211.418 L 142.304 239.633 C 142.349 248.842 140.728 249.807 131.171 250.117 L 70.704 249.997 L 70.237 263.084 L 56.294 249.968 L 5.088 249.866 L 4.901 226.894 Z" style="fill: none; stroke-width: 5; stroke: rgb(51, 103, 126);"/>
+    </g>
+    <g>
+      <rect x="163.03" y="230.824" width="30.534" height="89.695" style="fill: rgb(51, 103, 126);"/>
+      <g>
+        <rect x="101.145" y="270.992" width="59.16" height="48.664" style="fill: rgb(51, 103, 126);"/>
+        <g>
+          <rect transform="matrix(0.999999, 0, 0, 1, -40.251386, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -0.146821, 10.265379)">
+          <g>
+            <rect transform="matrix(0.999999, 0, 0, 1, -40.251272, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(51, 103, 126);"/>
+            <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(51, 103, 126);"/>
+            <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(51, 103, 126);"/>
+            <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(51, 103, 126);"/>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -0.530292, 20.468683)">
+          <rect transform="matrix(0.999999, 0, 0, 1, -40.251386, -36.18399)" x="145.992" y="314.845" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect x="118.756" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect x="132.639" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+          <rect x="145.648" y="278.661" width="9.542" height="6.679" style="fill: rgb(251, 251, 251);"/>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -60.436897, -3)">
+      <text x="197.402" y="379.867" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Motiver</text>
+      <path d="M 182.78 354.524 C 182.951 344.718 184.744 339.184 196.176 339.295 L 320.569 339.048 L 321.176 367.263 C 321.221 376.472 319.589 377.437 309.962 377.747 L 249.059 377.627 L 248.588 390.714 L 234.545 377.598 L 182.968 377.496 L 182.78 354.524 Z" style="fill: none; stroke-width: 5; stroke: rgb(51, 103, 126);" transform="matrix(-1, 0, 0, -1, 503.956863, 729.761969)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, -2)">
+      <path d="M 28.372 167.185 C 28.541 157.379 30.308 151.845 41.576 151.956 L 164.183 151.709 L 164.782 179.924 C 164.827 189.133 163.217 190.098 153.729 190.408 L 93.7 190.288 L 93.236 203.375 L 79.394 190.259 L 28.558 190.157 L 28.372 167.185 Z" style="fill: none; stroke-width: 5; stroke: rgb(51, 103, 126);"/>
+    </g>
+    <text x="79.349" y="117.859" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Performer</text>
+    <text x="43.905" y="178.431" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Innover</text>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 432.74176, -59.90757)">
+    <path d="M 30.534 137.405 L 159.351 136.451 C 186.634 138.997 180.279 170.482 159.351 167.939 L 125.649 168.194 L 121.271 184.484 L 104.433 168.355 L 33.397 168.893 C 14.14 168.893 11.624 137.405 30.534 137.405 Z" style="stroke: black; stroke-width: 1px; fill: none;"/>
+    <text x="38.122" y="161.168" style="font-family: sans-serif; font-size: 24px; white-space: pre;">Performer</text>
+    <path d="M 57.989 83.808 L 186.806 82.854 C 214.089 85.4 207.734 116.885 186.806 114.342 L 153.104 114.597 L 148.726 130.887 L 131.888 114.758 L 60.852 115.296 C 41.595 115.296 39.079 83.808 57.989 83.808 Z" style="stroke: black; stroke-width: 1px; fill: none;"/>
+    <text x="65.577" y="107.571" style="font-family: sans-serif; font-size: 24px; white-space: pre;">Innover</text>
+    <path d="M 20.549 398.724 L 149.366 399.678 C 176.649 397.132 170.294 365.647 149.366 368.19 L 115.664 367.935 L 111.286 351.645 L 94.448 367.774 L 23.412 367.236 C 4.155 367.236 1.639 398.724 20.549 398.724 Z" style="stroke: black; stroke-width: 1px; fill: none;"/>
+    <text x="28.137" y="390.362" style="font-family: sans-serif; font-size: 24px; white-space: pre;">Evoluer</text>
+    <path d="M 189.814 388.229 L 318.631 389.183 C 345.914 386.637 339.559 355.152 318.631 357.695 L 238.17 356.517 L 220.564 339.304 L 221.612 356.664 L 192.677 356.741 C 173.42 356.741 170.904 388.229 189.814 388.229 Z" style="stroke: black; stroke-width: 1px; fill: none;"/>
+    <text x="197.402" y="379.867" style="font-family: sans-serif; font-size: 24px; white-space: pre;">Motiver</text>
+    <ellipse cx="151.48" cy="312.262" rx="43.419" ry="33.443" style="fill: rgb(48, 65, 94);"/>
+    <ellipse cx="173.776" cy="252.414" rx="29.337" ry="28.75" transform="matrix(1, 0, 0, 1.000001, -19.94931, 14.081745)" style="fill: rgb(232, 197, 168);"/>
+  </g>
+  <path d="M 66.025 113.086 C 66.194 103.28 67.961 97.746 79.229 97.857 L 201.836 97.61 L 202.435 125.825 C 202.48 135.034 200.87 135.999 191.382 136.309 L 131.353 136.189 L 130.889 149.276 L 117.047 136.16 L 66.211 136.058 L 66.025 113.086 Z" style="fill: none; stroke-width: 5; stroke: rgb(51, 103, 126);"/>
+</svg>
