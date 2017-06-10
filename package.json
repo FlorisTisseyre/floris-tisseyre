@@ -2,7 +2,9 @@
   "name": "floris-tisseyre",
   "version": "0.0.1",
   "scripts": {
-    "dev": "php -S localhost:3000"
+    "start": "concurrently \"npm run server\" \"npm run less-watch-compiler\"",
+    "server": "php -S localhost:3000",
+    "less-watch-compiler": "less-watch-compiler src\\assets\\less src\\assets\\css"
   },
   "dependencies": {
     "jquery": "^3.2.1",
