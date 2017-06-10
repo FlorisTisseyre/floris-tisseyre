@@ -1,1 +1,1 @@
-<img src="src/assets/pictos/dessinMatch.svg">
+<img src="src/assets/pictos/illustration.svg">

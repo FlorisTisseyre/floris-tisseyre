@@ -14,31 +14,32 @@
     <script src="src/assets/js/main.js"></script>
 </head>
 <body>
-<img src="src/assets/pictos/left-arrow.svg" class="arrow left" id="arrowLeft">
-<img src="src/assets/pictos/right-arrow.svg" class="arrow right">
+<?php include __DIR__.'/assets/pictos/leftArrow.php'; ?>
+<?php include __DIR__.'/assets/pictos/rightArrow.php'; ?>
+
 <div id="pages">
     <div class="dragend-page">
         <div><?php include __DIR__ . "/contact/accueil.php"; ?></div>
     </div>
     <div class="dragend-page">
-		<div><?php include __DIR__ . "/contact/contact.php"; ?></div>
+        <div><?php include __DIR__ . "/contact/contact.php"; ?></div>
     </div>
 
     <div class="dragend-page">
         <div>
-		<?php include __DIR__ . "/questions/questions.php"; ?>
+			<?php include __DIR__ . "/questions/questions.php"; ?>
         </div>
     </div>
 
     <div class="dragend-page">
         <div>
-		<?php include __DIR__ . "/timeline/timeline.php"; ?>
+			<?php include __DIR__ . "/timeline/timeline.php"; ?>
         </div>
     </div>
 </div>
 <script>
     $(function () {
-        $("#pages").dragend()
+        dragendPage = $("#pages").dragend();
     });
 </script>
 </body>

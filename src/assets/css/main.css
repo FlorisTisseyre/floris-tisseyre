@@ -1,49 +1,51 @@
-body{
-    background-color: #0e8c8c;
-    position: relative;
+body {
+  background-color: #14607d;
+  position: relative;
 }
-#pages{
-
+.arrow.right {
+  position: absolute;
+  top: 20em;
+  right: 3em;
+  width: 5em;
+  z-index: 9999;
 }
-.arrow.right{
-    position: absolute;
-    top: 20em;
-    right: 3em;
-    width: 5em;
-    z-index: 9999;
+.arrow.left {
+  position: absolute;
+  top: 20em;
+  left: 3em;
+  width: 5em;
+  z-index: 9998;
 }
-.arrow.left{
-    position: absolute;
-    top: 20em;
-    left: 3em;
-    width: 5em;
-    z-index: 9998;
+.arrowColor.background {
+  fill: #14607d;
 }
-.dragend-page {
-
+.arrowColor {
+  fill: rgba(228, 228, 228, 0.8);
 }
-.dragend-page > div{
-    border: 1px dashed grey;
-    background-color: #4D7198;
-    width: 70%;
-    margin: auto;
-    height: 100%;
-    padding: 20px;
+.arrowColorLighthover {
+  fill: #e4e4e4;
 }
-
-#photoFloris{
-    width: 250px;
-    margin: auto;
+.dragend-page > div {
+  border: 1px dashed grey;
+  background-color: #e4e4e4;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  padding: 20px;
 }
-
-#identite{
-    width: 300px;
-    margin: auto;
+#photoFloris {
+  width: 250px;
+  margin: auto;
 }
-#identite h1, #identite h2{
-    text-align: center;
+#identite {
+  width: 300px;
+  margin: auto;
 }
-#listeExperienceAccueil{
-    width: 300px;
-    margin: auto;
+#identite h1,
+#identite h2 {
+  text-align: center;
+}
+#listeExperienceAccueil {
+  width: 300px;
+  margin: auto;
 }

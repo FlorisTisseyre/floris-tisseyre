@@ -1,0 +1,65 @@
+@darkColor: rgba(20, 96, 125, 1);
+@darkColorHover: rgba(93, 155, 179, 1);
+
+@ligthColor: rgba(228, 228, 228, 1);;
+@ligthColorOpacity20: rgba(228, 228, 228, 0.80);
+body{
+    background-color: @darkColor;
+    position: relative;
+}
+#pages{
+
+}
+.arrow.right{
+    position: absolute;
+    top: 20em;
+    right: 3em;
+    width: 5em;
+    z-index: 9999;
+}
+.arrow.left{
+    position: absolute;
+    top: 20em;
+    left: 3em;
+    width: 5em;
+    z-index: 9998;
+}
+
+.arrowColor.background{
+    fill: @darkColor;
+}
+.arrowColor{
+    fill: @ligthColorOpacity20;
+}
+.arrowColorLighthover{
+    fill: @ligthColor;
+}
+
+.dragend-page {
+
+}
+.dragend-page > div{
+    border: 1px dashed grey;
+    background-color: @ligthColor;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    padding: 20px;
+}
+
+#photoFloris{
+    width: 250px;
+    margin: auto;
+}
+
+#identite{
+    width: 300px;
+    margin: auto;
+}
+#identite h1, #identite h2{
+    text-align: center;
+}
+#listeExperienceAccueil{
+    width: 300px;
+    margin: auto;
+}
