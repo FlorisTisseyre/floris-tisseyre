@@ -1,5 +1,5 @@
 <div class="ui small circular rotate reveal image" id="photoFloris">
-    <img src="src/images/avatarfloris.jpg" class="visible content">
+    <img src="src/images/avatar-bonjour.jpg" class="visible content">
     <img src="src/images/avatarfloris.jpg" class="hidden content">
 </div>
 
