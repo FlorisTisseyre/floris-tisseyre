@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 function initIllustration() {
 
-    $('title:contains("N2-1")').parent().hide();
+   /* $('title:contains("N2-1")').parent().hide();
     $('title:contains("N2-2")').parent().hide();
     $('title:contains("Performer")').parent().on('mouseenter', function () {
         $('title:contains("N2-1")').parent().fadeIn();
@@ -41,5 +41,5 @@ function initIllustration() {
     });
     $('title:contains("Motiver")').parent().on('mouseleave', function () {
         $('title:contains("N2-2")').parent().fadeOut();
-    });
+    });*/
 }

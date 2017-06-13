@@ -14,28 +14,14 @@
     <script src="src/assets/js/main.js"></script>
 </head>
 <body>
-<?php include __DIR__.'/assets/pictos/leftArrow.php'; ?>
-<?php include __DIR__.'/assets/pictos/rightArrow.php'; ?>
 
 <div id="pages">
-    <div class="dragend-page">
-        <div><?php include __DIR__ . "/contact/accueil.php"; ?></div>
-    </div>
+    
     <div class="dragend-page" id="">
         <div><?php include __DIR__ . "/contact/contact.php"; ?></div>
     </div>
 
-    <div class="dragend-page">
-        <div>
-			<?php include __DIR__ . "/questions/questions.php"; ?>
-        </div>
-    </div>
-
-    <div class="dragend-page">
-        <div>
-			<?php include __DIR__ . "/timeline/timeline.php"; ?>
-        </div>
-    </div>
+    
 </div>
 <script>
     $(function () {
