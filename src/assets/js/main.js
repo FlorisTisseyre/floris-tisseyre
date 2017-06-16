@@ -35,11 +35,19 @@ function initIllustration() {
     $('title:contains("Performer")').parent().on('mouseleave', function () {
         $('title:contains("N2-1")').parent().fadeOut();
     });
-
     $('title:contains("Motiver")').parent().on('mouseenter', function () {
         $('title:contains("N2-2")').parent().fadeIn();
     });
     $('title:contains("Motiver")').parent().on('mouseleave', function () {
         $('title:contains("N2-2")').parent().fadeOut();
     });*/
+
+    $('title:contains("Motiver")').parent().on('click', function () {
+        $('#motiver').modal('show')
+        ;
+    });
+    $('title:contains("Motiver")').parent().on('mouseleave', function () {
+        //$('title:contains("Motiver")').parent().fadeOut();
+    });
+
 }
