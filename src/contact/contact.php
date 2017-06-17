@@ -1,1 +1,0 @@
-<?php include __DIR__.'/../assets/pictos/illustration1.svg'; ?>

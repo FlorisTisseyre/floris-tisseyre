@@ -13,11 +13,18 @@ $(document).ready(function () {
         width: original_size,
         height: original_size
     }, animation_time*5, mina.bounce);*/
-
+    $( "svg" ).ready( initIllustration );
 });
 
 
 function initIllustration() {
 
+    $('title:contains("Motiver")').parent().on('click', function () {
+        $('#motiver').modal('show')
+        ;
+    });
+    $('title:contains("Motiver")').parent().on('mouseleave', function () {
+        //$('title:contains("Motiver")').parent().fadeOut();
+    });
 
 }
