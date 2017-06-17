@@ -1,45 +1,23 @@
 $(document).ready(function () {
-    $('.arrow.left').on("click", function () {
-        $("#pages").dragend("right");
-    });
-    $('.arrow.right').on("click", function () {
-        $("#pages").dragend("left");
-    });
 
-    $('.arrow.left').on("mouseenter", function () {
-        $(this).find('.arrowColor').addClass('arrowColorLighthover');
-    });
-    $('.arrow.right').on("mouseenter", function () {
-        $(this).find('.arrowColor').addClass('arrowColorLighthover');
-    });
-
-    $('.arrow.left').on("mouseleave", function () {
-        $(this).find('.arrowColor').removeClass('arrowColorLighthover');
-    });
-    $('.arrow.right').on("mouseleave", function () {
-        $(this).find('.arrowColor').removeClass('arrowColorLighthover');
-    });
-
-    $( "svg" ).ready( initIllustration );
+    var s = Snap("#illustration svg");
+    console.log(s);
+    var entreprise = s.select('#blablabla');
+    console.log(entreprise);
+    console.log(parseInt(entreprise.attr('width')) +10);
+    var original_size = parseInt(entreprise.attr('width')) +10;
+    var hover_size = 24;
+    var animation_time = 250;
+    //entreprise.transform( 'r50,40,20' );
+    /*entreprise.animate({
+        width: original_size,
+        height: original_size
+    }, animation_time*5, mina.bounce);*/
 
 });
 
 
 function initIllustration() {
 
-   /* $('title:contains("N2-1")').parent().hide();
-    $('title:contains("N2-2")').parent().hide();
-    $('title:contains("Performer")').parent().on('mouseenter', function () {
-        $('title:contains("N2-1")').parent().fadeIn();
-    });
-    $('title:contains("Performer")').parent().on('mouseleave', function () {
-        $('title:contains("N2-1")').parent().fadeOut();
-    });
 
-    $('title:contains("Motiver")').parent().on('mouseenter', function () {
-        $('title:contains("N2-2")').parent().fadeIn();
-    });
-    $('title:contains("Motiver")').parent().on('mouseleave', function () {
-        $('title:contains("N2-2")').parent().fadeOut();
-    });*/
 }

@@ -11,21 +11,16 @@
             crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.js"></script>
     <script src="src/assets/js/dragend.js"></script>
+    <script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
     <script src="src/assets/js/main.js"></script>
 </head>
 <body>
-
-<div id="pages">
-    
-    <div class="dragend-page" id="">
-        <div><?php include __DIR__ . "/contact/contact.php"; ?></div>
+    <div class="container" id="container">
+        <div id="illustration"><?php include __DIR__.'/assets/pictos/illustration2.svg'; ?></div>
     </div>
-
-    
-</div>
 <script>
     $(function () {
-        dragendPage = $("#pages").dragend();
+        ///dragendPage = $("#pages").dragend();
     });
 </script>
 </body>

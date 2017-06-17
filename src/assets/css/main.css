@@ -1,1 +1,12 @@
-body{background-color:#468097;position:relative}.arrow.right{position:absolute;top:20em;right:3em;width:5em;z-index:9999}.arrow.left{position:absolute;top:20em;left:3em;width:5em;z-index:9998}.arrowColor.background{fill:#468097}.arrowColor{fill:rgba(208,218,224,0.8)}.arrowColorLighthover{fill:#d0dae0}.dragend-page>div{border:1px dashed grey;background-color:#d0dae0;width:70%;margin:auto;height:100%;padding:20px}#avatar{background-color:#468097}#photoFloris{width:250px;margin:auto}#identite{width:300px;top:20em;margin:auto}#identite h1,#identite h2{text-align:center}#listeExperienceAccueil{width:300px;margin:auto}
+body {
+  text-align: center;
+  background-color: #036ea1;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  background-color: #f0f4ff;
+}
