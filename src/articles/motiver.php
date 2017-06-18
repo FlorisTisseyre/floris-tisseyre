@@ -1,4 +1,4 @@
-<div class="ui scrolling modal" id="motiver">
+<div class="ui scrolling modal" id="article-motiver">
 	<i class="close icon"></i>
 	<div class="header">
 		Comment motiver ?

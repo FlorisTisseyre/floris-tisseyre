@@ -130,11 +130,11 @@ function initIllustration() {
 
 
     $('title:contains("Motiver")').parent().on('click', function () {
-        $('#motiver').modal('show')
+        $('#article-motiver').modal('show')
         ;
     });
-    $('title:contains("Motiver")').parent().on('mouseleave', function () {
+    //$('title:contains("Motiver")').parent().on('mouseleave', function () {
         //$('title:contains("Motiver")').parent().fadeOut();
-    });
+    //});
 
 }
