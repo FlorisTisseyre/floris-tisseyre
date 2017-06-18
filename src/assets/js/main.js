@@ -4,11 +4,8 @@ $(document).ready(function () {
 
 
 function initIllustration() {
-
     var animation_time = 250;
-
     var s = Snap("#illustration svg");
-
 
     $('#phrase1').css('opacity', 0);
     $('#phrase2').css('opacity', 0);
@@ -17,7 +14,6 @@ function initIllustration() {
     $('#motiver').css('opacity', 0);
     $('#unir').css('opacity', 0);
     $('#innover').css('opacity', 0);
-    $('#adelante').css('opacity', 0);
     $('#evoluer').css('opacity', 0);
 
     $('#avatarflo').css('opacity', 0);
@@ -31,7 +27,6 @@ function initIllustration() {
     $('#changeleader').css('opacity', 0);
     $('#rsi').css('opacity', 0);
 
-
     var entreprise = s.select('#entreprise');
     //var entrepriseScale = 1.5;
     entreprise.transform( 'T300,0S1.5,1.5,450,300' );
@@ -43,13 +38,11 @@ function initIllustration() {
     unir.transform('T400,200');
     var innover = s.select('#innover');
     innover.transform('T380,250');
-    var adelante = s.select('#adelante');
-    adelante.transform('T320,450');
     var evoluer = s.select('#evoluer');
     evoluer.transform('T400,350');
 
     // on démarre
-    $("#illustration svg").css('display', 'inline')
+    $("#illustration svg").css('display', 'inline');
 
     let phrase1 = s.select('#phrase1');
     let phrase2 = s.select('#phrase2');
@@ -93,7 +86,7 @@ function initIllustration() {
         motiver.animate({
             transform: 'T200,-210'
         }, animation_time*4, mina.easein, animateUnir);
-    }
+    };
     function animateUnir() {
         unir.animate({
             opacity: 1
@@ -101,40 +94,41 @@ function initIllustration() {
         unir.animate({
             transform: 'T400,-15'
         }, animation_time*4, mina.bounce, animateInnover);
-    }
+    };
     function animateInnover() {
         innover.animate({
             opacity: 1
         }, animation_time*4, mina.easeout);
         innover.animate({
             transform: 'T380,110'
-        }, animation_time*4, mina.easein, animateAdelante);
-    }
-    function animateAdelante() {
-        adelante.animate({
-            opacity: 1
-        }, animation_time*4, mina.easeout);
-        adelante.animate({
-            transform: 'T320,235'
         }, animation_time*4, mina.easein, animateEvoluer);
-    }
+    };
     function animateEvoluer() {
         evoluer.animate({
             opacity: 1
         }, animation_time*4, mina.easeout);
         evoluer.animate({
-            transform: 'T400,180'
+            transform: 'T430,130'
         }, animation_time*4, mina.easein);
-    }
+    };
     animateTitle1();
 
+    function initArticle(topic) {
+        var button = $('#' + topic);
+        var article = $('#article-' + topic);
 
-    $('title:contains("Motiver")').parent().on('click', function () {
-        $('#article-motiver').modal('show')
-        ;
-    });
-    //$('title:contains("Motiver")').parent().on('mouseleave', function () {
-        //$('title:contains("Motiver")').parent().fadeOut();
-    //});
-
+        button.on('click', function () {
+            article.modal('show');
+        });
+        button.on('mouseenter', function () {
+            button.css('opacity', 0.8);
+        });
+        button.on('mouseleave', function () {
+            button.css('opacity', 1);
+        });
+    }
+    initArticle('motiver');
+    initArticle('unir');
+    initArticle('innover');
+    initArticle('evoluer');
 }

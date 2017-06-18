@@ -11,7 +11,7 @@
 			
 			<div class="ui small header">« En permanence, comment ? »</div>
 			<p>Lors des mêlées du matin, des rétrospectives de sprints, sous forme d’ateliers, quelqu’un soumet une question à l’équipe et on essaye d’y répondre. Voici un (tout) petit échantillon des interrogations de l’équipe IT d’Anaqua Services :</p>
-			<ul class="questions">
+			<ul class="noBulletList">
 				<li>« Comment suivre les demandes ? »</li>
 				<li>« Les utilisateurs ne sont pas super contents de l’IT, qu’est-ce qui cloche ? »</li>
 				<li>« Serveurs physiques, pourquoi pas virtuels ? Cloud ? »</li>
