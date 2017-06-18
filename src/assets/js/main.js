@@ -14,11 +14,11 @@ function initIllustration() {
     $('#phrase2').css('opacity', 0);
     $('#phrase3').css('opacity', 0);
 
-    //$('#motiver').css('opacity', 0);
-    //$('#unir').css('opacity', 0);
-    //$('#innover').css('opacity', 0);
-    //$('#adelante').css('opacity', 0);
-    //$('#evoluer').css('opacity', 0);
+    $('#motiver').css('opacity', 0);
+    $('#unir').css('opacity', 0);
+    $('#innover').css('opacity', 0);
+    $('#adelante').css('opacity', 0);
+    $('#evoluer').css('opacity', 0);
 
     $('#avatarflo').css('opacity', 0);
     $('#floris').css('opacity', 0);
