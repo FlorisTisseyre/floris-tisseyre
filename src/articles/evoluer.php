@@ -7,7 +7,7 @@
 		<div class="description">
 			<div class="ui small header">« Que faut-il pour évoluer ? »</div>
 			<p>Pour faire face aux changements, il faut déjà une équipe motivée, unie et capable d’innover mais il faut plus que cela.</p>
-			<p>Que ce soit à Arcelor Mittal ou Anaqua Services, le constat est le même : les applicatifs grossissent et deviennent de plus en plus complexes. En quelques années, le maintenir devient presque impossible, il répond de moins en moins bien aux besoins et il freine les évolutions de la société.</p>
+			<p>Que ce soit à Arcelor Mittal ou Anaqua Services, le constat est le même : l’applicatif grossit et devient de plus en plus complexe. En quelques années, le maintenir devient presque impossible, il répond de moins en moins bien aux besoins et il freine les évolutions de la société.</p>
 			<p>Face à ce drame, la direction décide qu’une refonte est nécessaire, sauf qu’elle prend des années et que pendant ce temps, les grands challenges de l’entreprise sont remis à plus tard.</p>
 			<p>Et tout ça pour quoi ? Quelques années après ce projet titanesque, le nouveau logiciel devient lui aussi obsolète. A Arcelor Mittal, j’ai même vécu la situation absurde où le nouvel applicatif s’était transformé en usine à gaz avant même la fin de la refonte.</p>
 			
@@ -23,7 +23,7 @@
 			
 			<div class="ui small header">« Tout est là, du Scrum et du Clean Code ? »</div>
 			<p>Non, et loin de là. Nous sommes seulement au début du chemin et nous faisons appel à un craftman, Arnaud Lemaire, pour nous guider dans cette aventure.</p>
-			<p>Aujourd’hui nous explorons le Domain Driven Design, où comment remettre le métier au centre du logiciel, comment réconcilier l’IT et le business. Dans cette approche, la technique, c’est-à-dire l’architecture, la conception mais aussi le langage de programmation et la persistance bdd, doivent être repoussé très loin dans les discussions et on doit pouvoir les remplacer sans difficulté.</p>
+			<p>Aujourd’hui nous explorons le Domain Driven Design, où comment remettre le métier au centre du logiciel, comment réconcilier l’IT et le business. Dans cette approche, la technique, c’est-à-dire l’architecture, la conception mais aussi le langage de programmation et la persistance bdd, doivent être repoussés très loin dans les discussions et on doit pouvoir les remplacer sans difficulté.</p>
 			
 			<div class="ui small header">« Le mot de la fin ? »</div>
 			<p>« Evoluer » sous-entend de rester flexible dans le temps. Cette approche le permet. La route est longue certes, mais l’opportunité est unique.</p>
