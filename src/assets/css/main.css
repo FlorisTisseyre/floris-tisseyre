@@ -14,6 +14,11 @@ body {
   left: 100em;
   list-style-type: none;
 }
+.experience-words {
+  width: 80vh;
+  height: 100%;
+}
+
 /*#motiver{
   display: none;
 }*/

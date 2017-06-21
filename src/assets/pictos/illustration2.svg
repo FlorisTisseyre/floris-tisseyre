@@ -185,24 +185,23 @@
   <g transform="matrix(1, 0, 0, 1, 273.327789, -5.159028)">
     <text x="2.793" y="8.096" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase1">Vous voulez vous développer ?</text>
     <text x="11.662" y="68.414" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase3">vous adapter au marché ?</text>
-    <text x="47.955" y="37.581" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase2">etre performant ?</text>
+    <text x="47.955" y="37.581" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase2">être performant ?</text>
   </g>
-  <g transform="matrix(1, 0, 0, 1, 50, 10)">
-    <title>TimeLine</title>
+  <g transform="matrix(1, 0, 0, 1, 50, -12)">
     <path d="M -66.095 579.949 L 862.908 579.949" style="fill: rgb(216, 216, 216); stroke-width: 8; stroke: rgb(51, 103, 126); stroke-linecap: round;" id="timeline"/>
     <g transform="matrix(1, 0, 0, 1, -25, 0)" id="diplome">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
-        <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Diplome</text>
+        <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">ESIGELEC</text>
         <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Ingénieur</text>
       </g>
-      <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2001</text>
+      <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2003</text>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 159.089417, -1.647627)" id="developper">
+    <g transform="matrix(1, 0, 0, 1, 159.089417, -1.647627)" id="developpeur">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
-        <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">developper</text>
-        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">SSII</text>
+        <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">STERIA</text>
+        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Développeur</text>
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2005</text>
     </g>
@@ -210,9 +209,9 @@
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Arcelor Mittal</text>
-        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Bidule truc</text>
+        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Chef de projets</text>
       </g>
-      <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2012</text>
+      <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2008</text>
     </g>
     <g transform="matrix(1, 0, 0, 1, 504.315491, -0.900504)" id="changeleader">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
@@ -222,11 +221,11 @@
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2014</text>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 686.532471, -1.159073)" id="rsi">
+    <g transform="matrix(1, 0, 0, 1, 686.532471, -1.159073)" id="itmanager">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Anaqua Services</text>
-        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Rsi</text>
+        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">IT Manager</text>
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2015</text>
     </g>

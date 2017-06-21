@@ -8,6 +8,7 @@
     "less-watch-compiler": "less-watch-compiler src\\assets\\less src\\assets\\css"
   },
   "dependencies": {
+    "jqcloud2": "^2.0.3",
     "jquery": "^3.2.1",
     "semantic-ui": "^2.2.10",
     "snapsvg": "^0.5.1"
