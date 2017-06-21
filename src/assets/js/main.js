@@ -19,20 +19,24 @@ function initIllustration() {
     $('#avatarflo').css('opacity', 0);
     $('#floris').css('opacity', 0);
     $('#manager').css('opacity', 0);
+    $('#mail').css('opacity', 0);
+    $('#tel').css('opacity', 0);
 
-    /*
-     $('#timeline').css('opacity', 0);
-     $('#diplome').css('opacity', 0);
-     $('#developpeur').css('opacity', 0);
-     $('#chefprojet').css('opacity', 0);
-     $('#changeleader').css('opacity', 0);
-     $('#itmanager').css('opacity', 0);
-     */
+    $('#timeline').css('opacity', 0);
+    $('#diplome').css('opacity', 0);
+    $('#developpeur').css('opacity', 0);
+    $('#chefprojet').css('opacity', 0);
+    $('#changeleader').css('opacity', 0);
+    $('#itmanager').css('opacity', 0);
 
     var entreprise = s.select('#entreprise');
     //var entrepriseScale = 1.5;
     entreprise.transform('T300,0S1.5,1.5,450,300');
     var avatarFlo = s.select('#avatarflo');
+    var floris = s.select('#floris');
+    var manager = s.select('#manager');
+    var mail = s.select('#mail');
+    var tel = s.select('#tel');
 
     var motiver = s.select('#motiver');
     motiver.transform('T200,100');
@@ -42,6 +46,20 @@ function initIllustration() {
     innover.transform('T380,250');
     var evoluer = s.select('#evoluer');
     evoluer.transform('T400,350');
+
+    var timeline = s.select('#timeline');
+    timeline.transform('T1000,0');
+    var diplome = s.select('#diplome');
+    diplome.transform('T1000,0');
+    var developpeur = s.select('#developpeur');
+    developpeur.transform('T1000,0');
+    var chefprojet = s.select('#chefprojet');
+    chefprojet.transform('T1000,0');
+    var changeleader = s.select('#changeleader');
+    changeleader.transform('T1000,0');
+    var itmanager = s.select('#itmanager');
+    itmanager.transform('T1000,0');
+
 
     // on démarre
     $("#illustration svg").css('display', 'inline');
@@ -113,7 +131,92 @@ function initIllustration() {
         }, animation_time * 4, mina.easeout);
         evoluer.animate({
             transform: 'T430,130'
-        }, animation_time * 4, mina.easein);
+        }, animation_time * 3, mina.easein, animateFloris);
+    };
+    function animateFloris() {
+        floris.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        floris.animate({
+            transform: 't-60,0'
+        }, animation_time * 4, mina.easeout, animateManager);
+    };
+    function animateManager() {
+        manager.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        manager.animate({
+            transform: 't-100,0'
+        }, animation_time * 4, mina.easeout, animateTimeline);
+    };
+    function animateTimeline() {
+        timeline.animate({
+            opacity: 1
+        }, animation_time * 24, mina.easeout);
+        timeline.animate({
+            transform: 'T0,0'
+        }, animation_time * 4, mina.easein, animateDiplome);
+    };
+    function animateDiplome() {
+        diplome.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        diplome.animate({
+            transform: 'T-30,0'
+        }, animation_time * 4, mina.easeout, animateDeveloppeur);
+    };
+    function animateDeveloppeur() {
+        developpeur.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        developpeur.animate({
+            transform: 'T140,0'
+        }, animation_time * 4, mina.easeout, animateChefprojet);
+    };
+    function animateChefprojet() {
+        chefprojet.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        chefprojet.animate({
+            transform: 'T310,0'
+        }, animation_time * 4, mina.easeout, animateChangeleader);
+    };
+    function animateChangeleader() {
+        changeleader.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        changeleader.animate({
+            transform: 'T480,0'
+        }, animation_time * 4, mina.easeout, animateItmanager);
+    };
+    function animateItmanager() {
+        itmanager.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        itmanager.animate({
+            transform: 'T650,0'
+        }, animation_time * 4, mina.easeout, animateAvantMailEtTel);
+    };
+    function animateAvantMailEtTel() {
+        mail.transform('T-50,-50');
+        tel.transform('T-50,-50');
+        avatarFlo.animate({
+            transform: 'T170,-50'
+        }, animation_time * 4, mina.easeout);
+        floris.animate({
+            transform: 'T-60,-50'
+        }, animation_time * 4, mina.easeout);
+        manager.animate({
+            transform: 'T-100,-50'
+        }, animation_time * 4, mina.easeout, animateMailEtTel);
+    };
+    function animateMailEtTel() {
+        mail.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        tel.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
     };
     animateTitle1();
 

@@ -84,11 +84,13 @@
     </g>
     <text x="664.465" y="383.46" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 26.3px; white-space: pre;" id="floris">Floris Tisseyre</text>
     <text x="707.445" y="419.541" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 18.8px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="manager">Manager 3.0</text>
+    <text x="670" y="450" style="fill: rgb(0, 0, 0); font-family: Martel; font-size: 13.5px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="mail">f.tisseyre@gmail.com</text>
+    <text x="670" y="475" style="fill: rgb(0, 0, 0); font-family: Martel; font-size: 13.5px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="tel">06 52 46 20 39</text>
   </g>
   <g transform="matrix(1.094566, 0, 0, 1.094566, -54.257378, -10.956633)">
     <g transform="matrix(0.768739, 0, 0, 0.774337, 344.222198, 116.664894)" id="innover">
-      <path d="M 28.372 167.185 C 28.541 157.379 30.308 151.845 41.576 151.956 L 164.183 151.709 L 164.782 179.924 C 164.827 189.133 163.217 190.098 153.729 190.408 L 93.7 190.288 L 93.236 203.375 L 79.394 190.259 L 28.558 190.157 L 28.372 167.185 Z" style="fill: rgba(208, 218, 224, 0); stroke-width: 5; stroke: rgb(51, 103, 126);"/>
-      <text x="43.905" y="180.431" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Innover</text>
+        <text x="43.905" y="180.431" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Innover</text>
+      <path d="M 28.372 167.185 C 28.541 157.379 30.308 151.845 41.576 151.956 L 164.183 151.709 L 164.782 179.924 C 164.827 189.133 163.217 190.098 153.729 190.408 L 93.7 190.288 L 93.236 203.375 L 79.394 190.259 L 28.558 190.157 L 28.372 167.185 Z" style="fill: rgba(208, 218, 224, 0); stroke-width: 5; stroke: rgb(51, 103, 126); "/>
     </g>
     <g transform="matrix(0.768739, 0, 0, 0.774337, 253.794128, -135.416473)" id="motiver">
       <text x="197.402" y="379.867" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Motiver</text>
@@ -184,8 +186,8 @@
   </radialGradient>
   <g transform="matrix(1, 0, 0, 1, 273.327789, -5.159028)">
     <text x="2.793" y="8.096" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase1">Vous voulez vous développer ?</text>
-    <text x="11.662" y="68.414" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase3">vous adapter au marché ?</text>
-    <text x="47.955" y="37.581" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase2">être performant ?</text>
+    <text x="11.662" y="68.414" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase3">Vous adapter au marché ?</text>
+    <text x="47.955" y="37.581" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase2">Être performant ?</text>
   </g>
   <g transform="matrix(1, 0, 0, 1, 50, -12)">
     <path d="M -66.095 579.949 L 862.908 579.949" style="fill: rgb(216, 216, 216); stroke-width: 8; stroke: rgb(51, 103, 126); stroke-linecap: round;" id="timeline"/>
