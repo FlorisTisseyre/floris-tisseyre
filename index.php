@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-    <meta name = "viewport" content = "width=device-width;height=device-height"/>
-	<title>CV Floris Tisseyre</title>
+    <meta name="keywords" content="floris, tisseyre, tisseire, tysseire, cv, curriculum, vitae, parcours, profil, perso, agile, manager, management, reseau, informatique, développement">
+    <title>CV Floris Tisseyre</title>
 	<link rel="stylesheet" href="semantic/dist/semantic.css"/>
 	<link rel="stylesheet" href="src/assets/css/main.css"/>
 	<link rel="stylesheet" href="node_modules/jqcloud2/dist/jqcloud.min.css"/>
