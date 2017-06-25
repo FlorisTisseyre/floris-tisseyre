@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 
 function initIllustration() {
-    var animation_time = 50;
+    var animation_time = 250;
     var s = Snap("#illustration svg");
 
     $('#phrase1').css('opacity', 0);

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
+    <meta name = "viewport" content = "width=device-width;height=device-height"/>
 	<title>CV Floris Tisseyre</title>
 	<link rel="stylesheet" href="semantic/dist/semantic.css"/>
 	<link rel="stylesheet" href="src/assets/css/main.css"/>
@@ -16,7 +17,6 @@
 	<script src="src/assets/js/main.js"></script>
 </head>
 <body>
-
 <div class="container" id="container">
     <div id="illustration"><?php include __DIR__.'/src/assets/pictos/illustration2.svg'; ?></div>
 </div>
