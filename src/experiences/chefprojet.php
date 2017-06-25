@@ -11,7 +11,7 @@
                         <span class="date">Arcelor Mittal</span>
                     </div>
                     <div class="description">
-                        Gérer la refonte de l’Aciérie de Fos-sur-Mer<br/>
+                        Conduire et porter la refonte de l’Aciérie de Fos-sur-Mer<br/>
                         Industrialiser deux modèles mathématiques
                     </div>
                 </div>

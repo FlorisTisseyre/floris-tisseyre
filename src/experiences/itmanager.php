@@ -11,7 +11,7 @@
                         <span class="date">Anaqua Services</span>
                     </div>
                     <div class="description">
-                        Gérer l’équipe IT<br />
+                        Unir, motiver et faire évoluer l’équipe IT<br />
                         (logiciel métier + SI)
                     </div>
                 </div>

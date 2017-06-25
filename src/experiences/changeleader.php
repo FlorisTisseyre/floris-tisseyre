@@ -11,8 +11,8 @@
                         <span class="date">Arcelor Mittal</span>
                     </div>
                     <div class="description">
-                        Analyser le goulot d’étranglement de l’usine<br/>
-                        Lancer le nouveau plan d’entreprise
+                        Lancer le nouveau projet d’entreprise<br/>
+                        Analyser le goulot d’étranglement de l’usine
                     </div>
                 </div>
                 <div class="extra content">
