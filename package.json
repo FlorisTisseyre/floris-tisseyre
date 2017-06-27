@@ -4,7 +4,7 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run style4\"",
     "server": "php -S localhost:3000",
-    "style4": "lessc src\\assets\\less\\main4.less src\\assets\\css\\main.css",
+    "style4": "lessc src\\assets\\less\\main.less src\\assets\\css\\main.css",
     "less-watch-compiler": "less-watch-compiler src\\assets\\less src\\assets\\css"
   },
   "dependencies": {
