@@ -19,6 +19,7 @@
     <script src="src/assets/js/main.js"></script>
 </head>
 <body>
+<?php include_once __DIR__ . '/src/analyticstracking.php' ?>
 
 <div class="container" id="container">
     <div id="illustration"><?php include __DIR__ . '/src/assets/pictos/illustration2.svg'; ?></div>
