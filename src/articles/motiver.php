@@ -6,7 +6,7 @@
 	<div class="content">
 		<div class="description">
 			<div class="ui small header">« D’où vient la motivation ? »</div>
-			<p>Du salaire ? ceux qui en parlent le plus sont bien souvent les moins motivés.</p>
+			<p>Du salaire ? ceux qui en parlent le plus sont souvent les moins motivés.</p>
 			<p>Aujourd’hui je mise tout sur « apprendre » : découvrir et faire découvrir de nouvelles choses en permanence. C’est osé et loin des théories mais ça marche, en tout cas avec mon équipe actuelle et la précédente.</p>
 			
 			<div class="ui small header">« En permanence, comment ? »</div>
