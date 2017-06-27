@@ -99,11 +99,9 @@
       <text x="25.014" y="238.363" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Unir</text>
       <path d="M 4.901 226.894 C 5.071 217.088 6.851 211.554 18.201 211.665 L 141.701 211.418 L 142.304 239.633 C 142.349 248.842 140.728 249.807 131.171 250.117 L 70.704 249.997 L 70.237 263.084 L 56.294 249.968 L 5.088 249.866 L 4.901 226.894 Z" style="fill: rgba(208, 218, 224, 0); stroke-width: 5; stroke: rgb(51, 103, 126);"/>
     </g>
-    <g transform="matrix(0.768739, 0, 0, 0.774337, 433.724762, 131.979538)" id="evoluer">
-      <g transform="matrix(1, 0, 0, 1, -63.458744, -8)">
+    <g transform="matrix(0.768739, 0, 0, 0.774337, 370.724762, 123.979538)" id="evoluer">
         <text x="25.014" y="238.363" style="fill: rgb(51, 103, 126); font-family: sans-serif; font-size: 24px; white-space: pre;">Evoluer</text>
         <path d="M 4.901 226.894 C 5.071 217.088 6.851 211.554 18.201 211.665 L 141.701 211.418 L 142.304 239.633 C 142.349 248.842 140.728 249.807 131.171 250.117 L 70.704 249.997 L 70.237 263.084 L 56.294 249.968 L 5.088 249.866 L 4.901 226.894 Z" style="fill: rgba(208, 218, 224, 0); stroke-width: 5; stroke: rgb(51, 103, 126);"/>
-      </g>
     </g>
   </g>
   <radialGradient id="SVGID_1_" cx="310.1465" cy="274.5635" r="33.4837" gradientTransform="matrix(0.590849, 0.179045, -0.179049, 0.59085, 424.046244, -30.658713)" gradientUnits="userSpaceOnUse">

@@ -7,6 +7,16 @@ function initIllustration() {
     var animation_time = 250;
     var s = Snap("#illustration svg");
 
+    $('#motiver').css('cursor', 'pointer');
+    $('#unir').css('cursor', 'pointer');
+    $('#innover').css('cursor', 'pointer');
+    $('#evoluer').css('cursor', 'pointer');
+    $('#diplome').css('cursor', 'pointer');
+    $('#developpeur').css('cursor', 'pointer');
+    $('#chefprojet').css('cursor', 'pointer');
+    $('#changeleader').css('cursor', 'pointer');
+    $('#itmanager').css('cursor', 'pointer');
+
     $('#phrase1').css('opacity', 0);
     $('#phrase2').css('opacity', 0);
     $('#phrase3').css('opacity', 0);
@@ -45,7 +55,7 @@ function initIllustration() {
     var innover = s.select('#innover');
     innover.transform('T380,250');
     var evoluer = s.select('#evoluer');
-    evoluer.transform('T400,350');
+    evoluer.transform('T340,340');
 
     var timeline = s.select('#timeline');
     timeline.transform('T1000,0');
@@ -123,14 +133,14 @@ function initIllustration() {
         }, animation_time * 4, mina.easeout);
         innover.animate({
             transform: 'T380,110'
-        }, animation_time * 4, mina.easein, animateEvoluer);
+        }, animation_time * 4, mina.elastic, animateEvoluer);
     };
     function animateEvoluer() {
         evoluer.animate({
             opacity: 1
         }, animation_time * 4, mina.easeout);
         evoluer.animate({
-            transform: 'T430,130'
+            transform: 'T360,120'
         }, animation_time * 3, mina.easein, animateFloris);
     };
     function animateFloris() {
@@ -220,56 +230,49 @@ function initIllustration() {
     };
     animateTitle1();
 
-    function initArticle(topic) {
-        var button = $('#' + topic);
-        var article = $('#article-' + topic);
 
-        button.on('click', function () {
-            article.modal('show');
+    function initArticleButton(svgButton, jArticle) {
+        svgButton.click(function () {
+            jArticle.modal('show');
         });
-        article.on('click', function () {
-            article.modal('hide');
+        jArticle.click(function () {
+            jArticle.modal('hide');
         });
-        button.on('mouseenter', function () {
-            if (button.css('opacity') != 0) {
-                button.css('opacity', 0.7);
-            }
+        svgButton.mouseover(function () {
+            svgButton.select('text').attr({fill: "rgba(3, 110, 161, 1)"});
+            svgButton.select('path').attr({stroke: "rgba(3, 110, 161, 1)"})
         });
-        button.on('mouseleave', function () {
-            if (button.css('opacity') != 0) {
-                button.css('opacity', 1);
-            }
+        svgButton.mouseout(function () {
+            svgButton.select('text').attr({fill: "rgb(51, 103, 126)"});
+            svgButton.select('path').attr({stroke: "rgb(51, 103, 126)"});
         });
     }
 
-    initArticle('motiver');
-    initArticle('unir');
-    initArticle('innover');
-    initArticle('evoluer');
+    initArticleButton(motiver, $('#article-motiver'));
+    initArticleButton(unir, $('#article-unir'));
+    initArticleButton(innover, $('#article-innover'));
+    initArticleButton(evoluer, $('#article-evoluer'));
 
     function initExperience(topic, words) {
+        var svgButton = s.select('#' + topic);
         var jButton = $('#' + topic);
         var jExperience = $('#experience-' + topic);
         var jWords = $('#experience-' + topic + '-words');
 
-        jButton.on('click', function () {
-            jExperience.modal({
-                blurring: true
-            }).modal('show');
+        jButton.click(function () {
+            jExperience.modal('show');
             jWords.jQCloud(words);
         });
-        jExperience.on('click', function () {
+        jExperience.click(function () {
             jExperience.modal('hide');
         });
-        jButton.on('mouseenter', function () {
-            if (jButton.css('opacity') != 0) {
-                jButton.css('opacity', 0.7);
-            }
+        jButton.mouseover(function () {
+            svgButton.selectAll('text').attr({fill: "rgba(3, 110, 161, 1)"});
+            svgButton.select('ellipse').attr({fill: "rgba(3, 110, 161, 1)"})
         });
-        jButton.on('mouseleave', function () {
-            if (jButton.css('opacity') != 0) {
-                jButton.css('opacity', 1);
-            }
+        jButton.mouseleave(function () {
+            svgButton.selectAll('text').attr({fill: "rgb(51, 103, 126)"});
+            svgButton.select('ellipse').attr({fill: "rgb(51, 103, 126)"});
         });
     }
 
