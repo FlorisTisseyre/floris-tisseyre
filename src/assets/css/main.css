@@ -2,11 +2,11 @@ body {
   text-align: center;
   background-color: #036ea1;
   margin: 0;
-  padding: 0;
+  padding: 1px;
 }
 .container {
   width: 80%;
-  height: 100%;
+  height: 99.5%;
   margin: auto;
   background-color: #f0f4ff;
 }
@@ -24,6 +24,7 @@ body {
 }
 #web-link {
   visibility: hidden;
+  display: none;
 }
 /*#motiver{
   display: none;
