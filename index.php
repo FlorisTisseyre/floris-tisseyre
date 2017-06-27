@@ -22,7 +22,7 @@
 <?php include_once __DIR__ . '/src/analyticstracking.php' ?>
 
 <div class="container" id="container">
-    <div id="illustration"><?php include __DIR__ . '/src/assets/pictos/illustration2.svg'; ?></div>
+    <div id="illustration"><?php include __DIR__ . '/src/assets/pictos/illustration.svg'; ?></div>
 </div>
 <?php include __DIR__ . '/src/mainContent.php'; ?>
 <div class="ui massive blue message" id="web-link">Plus d'infos sur www.floris-tisseyre.fr</div>
