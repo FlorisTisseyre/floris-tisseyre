@@ -239,8 +239,8 @@ function initIllustration() {
             jArticle.modal('hide');
         });
         svgButton.mouseover(function () {
-            svgButton.select('text').attr({fill: "rgba(3, 110, 161, 1)"});
-            svgButton.select('path').attr({stroke: "rgba(3, 110, 161, 1)"})
+            svgButton.select('text').attr({fill: "#FC6D00"});
+            svgButton.select('path').attr({stroke: "#FC6D00"})
         });
         svgButton.mouseout(function () {
             svgButton.select('text').attr({fill: "rgb(51, 103, 126)"});
@@ -267,8 +267,8 @@ function initIllustration() {
             jExperience.modal('hide');
         });
         jButton.mouseover(function () {
-            svgButton.selectAll('text').attr({fill: "rgba(3, 110, 161, 1)"});
-            svgButton.select('ellipse').attr({fill: "rgba(3, 110, 161, 1)"})
+            svgButton.selectAll('text').attr({fill: "#FC6D00"});
+            svgButton.select('ellipse').attr({fill: "#FC6D00"})
         });
         jButton.mouseleave(function () {
             svgButton.selectAll('text').attr({fill: "rgb(51, 103, 126)"});
