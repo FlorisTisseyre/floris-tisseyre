@@ -20,6 +20,7 @@ function initIllustration() {
     $('#phrase1').css('opacity', 0);
     $('#phrase2').css('opacity', 0);
     $('#phrase3').css('opacity', 0);
+    $('#phrase4').css('opacity', 0);
 
     $('#motiver').css('opacity', 0);
     $('#unir').css('opacity', 0);
@@ -77,6 +78,7 @@ function initIllustration() {
     var phrase1 = s.select('#phrase1');
     var phrase2 = s.select('#phrase2');
     var phrase3 = s.select('#phrase3');
+    var phrase4 = s.select('#phrase4');
 
     function animateTitle1() {
         phrase1.animate({
@@ -93,6 +95,12 @@ function initIllustration() {
     function animateTitle3() {
         phrase3.animate({
             opacity: 1
+        }, animation_time * 4, mina.easeout, animateTitle4);
+    }
+
+    function animateTitle4() {
+        phrase4.animate({
+            opacity: 1
         }, animation_time * 4, mina.easeout, animateEnterprise);
     }
 
@@ -101,7 +109,8 @@ function initIllustration() {
         entreprise.animate({
             transform: 't120,0S1.5,1.5,450,300'
         }, animation_time * 4, mina.easeout);
-    };
+    }
+
     function animateAvatarFlo() {
         //$('#avatarflo').css('opacity', 1);
         avatarFlo.animate({
@@ -110,7 +119,8 @@ function initIllustration() {
         avatarFlo.animate({
             transform: 't170,0'
         }, animation_time * 4, mina.easeout, animateMotiver);
-    };
+    }
+
     function animateMotiver() {
         motiver.animate({
             opacity: 1
@@ -118,7 +128,8 @@ function initIllustration() {
         motiver.animate({
             transform: 'T200,-210'
         }, animation_time * 4, mina.easein, animateUnir);
-    };
+    }
+
     function animateUnir() {
         unir.animate({
             opacity: 1
@@ -126,7 +137,8 @@ function initIllustration() {
         unir.animate({
             transform: 'T400,-15'
         }, animation_time * 4, mina.bounce, animateInnover);
-    };
+    }
+
     function animateInnover() {
         innover.animate({
             opacity: 1
@@ -134,7 +146,8 @@ function initIllustration() {
         innover.animate({
             transform: 'T380,110'
         }, animation_time * 4, mina.elastic, animateEvoluer);
-    };
+    }
+
     function animateEvoluer() {
         evoluer.animate({
             opacity: 1
@@ -142,7 +155,8 @@ function initIllustration() {
         evoluer.animate({
             transform: 'T360,120'
         }, animation_time * 3, mina.easein, animateFloris);
-    };
+    }
+
     function animateFloris() {
         floris.animate({
             opacity: 1
@@ -150,7 +164,8 @@ function initIllustration() {
         floris.animate({
             transform: 't-60,0'
         }, animation_time * 4, mina.easeout, animateManager);
-    };
+    }
+
     function animateManager() {
         manager.animate({
             opacity: 1
@@ -158,7 +173,8 @@ function initIllustration() {
         manager.animate({
             transform: 't-100,0'
         }, animation_time * 4, mina.easeout, animateTimeline);
-    };
+    }
+
     function animateTimeline() {
         timeline.animate({
             opacity: 1
@@ -174,7 +190,8 @@ function initIllustration() {
         diplome.animate({
             transform: 'T-30,0'
         }, animation_time * 4, mina.easeout, animateDeveloppeur);
-    };
+    }
+
     function animateDeveloppeur() {
         developpeur.animate({
             opacity: 1
@@ -182,7 +199,8 @@ function initIllustration() {
         developpeur.animate({
             transform: 'T140,0'
         }, animation_time * 4, mina.easeout, animateChefprojet);
-    };
+    }
+
     function animateChefprojet() {
         chefprojet.animate({
             opacity: 1
@@ -190,7 +208,8 @@ function initIllustration() {
         chefprojet.animate({
             transform: 'T310,0'
         }, animation_time * 4, mina.easeout, animateChangeleader);
-    };
+    }
+
     function animateChangeleader() {
         changeleader.animate({
             opacity: 1
@@ -198,7 +217,8 @@ function initIllustration() {
         changeleader.animate({
             transform: 'T480,0'
         }, animation_time * 4, mina.easeout, animateItmanager);
-    };
+    }
+
     function animateItmanager() {
         itmanager.animate({
             opacity: 1
@@ -206,7 +226,8 @@ function initIllustration() {
         itmanager.animate({
             transform: 'T650,0'
         }, animation_time * 4, mina.easeout, animateAvantMailEtTel);
-    };
+    }
+
     function animateAvantMailEtTel() {
         mail.transform('T-50,-50');
         tel.transform('T-50,-50');
@@ -219,7 +240,8 @@ function initIllustration() {
         manager.animate({
             transform: 'T-100,-50'
         }, animation_time * 4, mina.easeout, animateMailEtTel);
-    };
+    }
+
     function animateMailEtTel() {
         mail.animate({
             opacity: 1
@@ -227,7 +249,8 @@ function initIllustration() {
         tel.animate({
             opacity: 1
         }, animation_time * 4, mina.easeout);
-    };
+    }
+
     animateTitle1();
 
 
@@ -362,7 +385,7 @@ function initIllustration() {
             {text: "ERP", weight: 2},
             {text: "Brevets", weight: 1},
             {text: "Marques", weight: 1},
-            {text: "Finance", weight: 1},
+            {text: "Finance", weight: 1}
         ]
     );
 }
