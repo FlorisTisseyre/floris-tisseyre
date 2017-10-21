@@ -17,6 +17,14 @@
     <script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
     <script src="node_modules/jqcloud2/dist/jqcloud.min.js"></script>
     <script src="src/assets/js/main.js"></script>
+    
+<?php
+    if(isset($_GET['lang']) && $_GET['lang'] === 'en') {
+?>
+    <script src="src/assets/js/translation.js"></script>
+<?php
+    }
+?>
 </head>
 <body>
 <?php include_once __DIR__ . '/src/analyticstracking.php' ?>

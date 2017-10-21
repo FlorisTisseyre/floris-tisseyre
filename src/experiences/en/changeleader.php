@@ -1,28 +1,28 @@
-<div class="ui basic small modal" id="experience-chefprojet">
+<div class="ui basic small modal" id="experience-changeleader-en">
     <div class="image content">
         <div class="ui medium image">
             <div class="ui card">
                 <div class="image">
-                    <img src="/src/images/experiences/chefprojet.jpg">
+                    <img src="/src/images/experiences/changeleader.jpg">
                 </div>
                 <div class="content">
-                    <a class="header">Chef de projets</a>
+                    <a class="header">Change leader</a>
                     <div class="meta">
                         <span class="date">Arcelor Mittal</span>
                     </div>
                     <div class="description">
-                        Conduire et porter la refonte de l’Aciérie de Fos-sur-Mer<br/>
-                        Industrialiser deux modèles mathématiques
+                        Launch the new company project<br/>
+                        Analyze the bottleneck of the factory
                     </div>
                 </div>
                 <div class="extra content">
                     <i class="calendar outline icon"></i>
-                    2008 à 2014
+                    2014
                 </div>
             </div>
         </div>
         <div class="description">
-            <div class="experience-words" id="experience-chefprojet-words"></div>
+            <div class="experience-words" id="experience-changeleader-en-words"></div>
         </div>
     </div>
 </div>

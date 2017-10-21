@@ -1,28 +1,27 @@
-<div class="ui basic small modal" id="experience-changeleader">
+<div class="ui basic small modal" id="experience-diplome-en">
     <div class="image content">
         <div class="ui medium image">
             <div class="ui card">
                 <div class="image">
-                    <img src="/src/images/experiences/changeleader.jpg">
+                    <img src="/src/images/experiences/diplome.jpg">
                 </div>
                 <div class="content">
-                    <a class="header">Change leader</a>
+                    <a class="header">Generalist engineer</a>
                     <div class="meta">
-                        <span class="date">Arcelor Mittal</span>
+                        <span class="date">ESIGELEC</span>
                     </div>
                     <div class="description">
-                        Lancer le nouveau projet d’entreprise<br/>
-                        Analyser le goulot d’étranglement de l’usine
+                        Double curriculum on last year
                     </div>
                 </div>
                 <div class="extra content">
                     <i class="calendar outline icon"></i>
-                    2014
+                    Graduated in 2005
                 </div>
             </div>
         </div>
         <div class="description">
-            <div class="experience-words" id="experience-changeleader-words"></div>
+            <div class="experience-words" id="experience-diplome-en-words"></div>
         </div>
     </div>
 </div>

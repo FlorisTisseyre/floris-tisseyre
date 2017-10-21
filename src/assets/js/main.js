@@ -4,10 +4,10 @@ $(document).ready(function () {
 
 
 function initIllustration() {
-    var animation_time = 250;
+    var animation_time = 25;
     var s = Snap("#illustration svg");
 
-    $('#motiver').css('cursor', 'pointer');
+    $('#motiver').css({'cursor': 'pointer', 'opacity': 0});
     $('#unir').css('cursor', 'pointer');
     $('#innover').css('cursor', 'pointer');
     $('#evoluer').css('cursor', 'pointer');
@@ -22,7 +22,6 @@ function initIllustration() {
     $('#phrase3').css('opacity', 0);
     $('#phrase4').css('opacity', 0);
 
-    $('#motiver').css('opacity', 0);
     $('#unir').css('opacity', 0);
     $('#innover').css('opacity', 0);
     $('#evoluer').css('opacity', 0);
@@ -112,7 +111,6 @@ function initIllustration() {
     }
 
     function animateAvatarFlo() {
-        //$('#avatarflo').css('opacity', 1);
         avatarFlo.animate({
             opacity: 1
         }, animation_time * 4, mina.easeout);
@@ -276,11 +274,11 @@ function initIllustration() {
     initArticleButton(innover, $('#article-innover'));
     initArticleButton(evoluer, $('#article-evoluer'));
 
-    function initExperience(topic, words) {
+    function initExperience(topic, lang, words) {
         var svgButton = s.select('#' + topic);
         var jButton = $('#' + topic);
-        var jExperience = $('#experience-' + topic);
-        var jWords = $('#experience-' + topic + '-words');
+        var jExperience = $('#experience-' + topic + '-' + lang);
+        var jWords = $('#experience-' + topic + '-' + lang + '-words');
 
         jButton.click(function () {
             jExperience.modal('show');
@@ -299,7 +297,7 @@ function initIllustration() {
         });
     }
 
-    initExperience('diplome',
+    initExperience('diplome', 'fr',
         [
             {text: "Ingénieur", weight: 10},
             {text: "Généraliste", weight: 8},
@@ -314,7 +312,22 @@ function initIllustration() {
         ]
     );
 
-    initExperience('developpeur',
+    initExperience('diplome', 'en',
+        [
+            {text: "Engineer", weight: 10},
+            {text: "Generalist", weight: 8},
+            {text: "Informatic", weight: 5},
+            {text: "Telecoms", weight: 2},
+            {text: "Optical", weight: 2},
+            {text: "Network", weight: 1},
+            {text: "Electronic", weight: 1},
+            {text: "Electrotechnic", weight: 1},
+            {text: "Automatism", weight: 1},
+            {text: "Associations", weight: 1},
+        ]
+    );
+
+    initExperience('developpeur', 'fr',
         [
             {text: "Développement", weight: 10},
             {text: "Responsable technique", weight: 8},
@@ -333,7 +346,26 @@ function initIllustration() {
         ]
     );
 
-    initExperience('chefprojet',
+    initExperience('developpeur', 'en',
+        [
+            {text: "Development", weight: 10},
+            {text: "Technical manager", weight: 8},
+            {text: "Team leader", weight: 8},
+            {text: "Telecom", weight: 6},
+            {text: "Internet", weight: 6},
+            {text: "BSM", weight: 6},
+            {text: "Defence", weight: 6},
+            {text: "C++", weight: 4},
+            {text: "Orange", weight: 2},
+            {text: "SFR", weight: 2},
+            {text: "Neuf", weight: 2},
+            {text: "Groupama", weight: 2},
+            {text: "DCNS", weight: 2},
+            {text: "V-Model", weight: 1},
+        ]
+    );
+
+    initExperience('chefprojet', 'fr',
         [
             {text: "Chef de projets", weight: 12},
             {text: "Architecte", weight: 10},
@@ -349,7 +381,23 @@ function initIllustration() {
         ]
     );
 
-    initExperience('changeleader',
+    initExperience('chefprojet', 'en',
+        [
+            {text: "Projects manager", weight: 12},
+            {text: "Architect", weight: 10},
+            {text: "Design", weight: 9},
+            {text: "Industry", weight: 7},
+            {text: "Steel industry", weight: 7},
+            {text: "Recast", weight: 6},
+            {text: "V-Model", weight: 4},
+            {text: "C++", weight: 3},
+            {text: "C#", weight: 2},
+            {text: "Oracle", weight: 2},
+            {text: "OSH audit", weight: 1},
+        ]
+    );
+
+    initExperience('changeleader', 'fr',
         [
             {text: "Changement", weight: 12},
             {text: "Stratégie d’entreprise", weight: 10},
@@ -366,7 +414,24 @@ function initIllustration() {
         ]
     );
 
-    initExperience('itmanager',
+    initExperience('changeleader', 'en',
+        [
+            {text: "Change", weight: 12},
+            {text: "Business strategy", weight: 10},
+            {text: "WCM", weight: 7},
+            {text: "Lean", weight: 6},
+            {text: "Six Sigma", weight: 6},
+            {text: "TPM", weight: 6},
+            {text: "Animate", weight: 5},
+            {text: "Instructor", weight: 4},
+            {text: "Theory of constraints", weight: 2},
+            {text: "WhyWhy", weight: 1},
+            {text: "CQQCOQP", weight: 1},
+            {text: "Brainstorming", weight: 1},
+        ]
+    );
+
+    initExperience('itmanager', 'fr',
         [
             {text: "Motiver", weight: 24},
             {text: "Unir", weight: 20},
@@ -388,4 +453,28 @@ function initIllustration() {
             {text: "Finance", weight: 1}
         ]
     );
+
+    initExperience('itmanager', 'en',
+        [
+            {text: "Motivate", weight: 24},
+            {text: "Unite", weight: 20},
+            {text: "Innovate", weight: 20},
+            {text: "Evolve", weight: 20},
+            {text: "Learn", weight: 20},
+            {text: "Rewrite", weight: 17},
+            {text: "Agile", weight: 15},
+            {text: "Scrum", weight: 15},
+            {text: "Clean Code", weight: 14},
+            {text: "Sprints", weight: 10},
+            {text: "Retro", weight: 10},
+            {text: "DDD", weight: 8},
+            {text: "TDD", weight: 7},
+            {text: "Legacy", weight: 5},
+            {text: "ERP", weight: 2},
+            {text: "Patents", weight: 1},
+            {text: "Trademarks", weight: 1},
+            {text: "Finance", weight: 1}
+        ]
+    );
 }
+

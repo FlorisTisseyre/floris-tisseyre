@@ -1,12 +1,19 @@
 <div id="mainContent">
-	<?php include __DIR__ . "/articles/motiver.php"; ?>
-	<?php include __DIR__ . "/articles/unir.php"; ?>
-	<?php include __DIR__ . "/articles/innover.php"; ?>
-	<?php include __DIR__ . "/articles/evoluer.php"; ?>
-	<?php include __DIR__ . "/experiences/diplome.php"; ?>
-	<?php include __DIR__ . "/experiences/developpeur.php"; ?>
-	<?php include __DIR__ . "/experiences/chefprojet.php"; ?>
-	<?php include __DIR__ . "/experiences/changeleader.php"; ?>
-	<?php include __DIR__ . "/experiences/itmanager.php"; ?>
+    <?php
+    if(isset($_GET['lang']) && $_GET['lang'] === 'en') {
+        $lang = 'en';
+    } else {
+        $lang = 'fr';
+    }
+    ?>
+	<?php include __DIR__ . "/articles/$lang/motiver.php"; ?>
+	<?php include __DIR__ . "/articles/$lang/unir.php"; ?>
+	<?php include __DIR__ . "/articles/$lang/innover.php"; ?>
+	<?php include __DIR__ . "/articles/$lang/evoluer.php"; ?>
+	<?php include __DIR__ . "/experiences/$lang/diplome.php"; ?>
+	<?php include __DIR__ . "/experiences/$lang/developpeur.php"; ?>
+	<?php include __DIR__ . "/experiences/$lang/chefprojet.php"; ?>
+	<?php include __DIR__ . "/experiences/$lang/changeleader.php"; ?>
+	<?php include __DIR__ . "/experiences/$lang/itmanager.php"; ?>
 </div>
 
