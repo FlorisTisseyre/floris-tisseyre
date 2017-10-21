@@ -4,9 +4,11 @@ body {
   margin: 0;
   padding: 1px;
 }
+#photoFloris {
+  width: 250px;
+  margin: auto;
+}
 .container {
-  width: 80%;
-  height: 99.5%;
   margin: auto;
   background-color: #f0f4ff;
 }
