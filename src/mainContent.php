@@ -9,7 +9,7 @@
     ?>
     
     <div class="container" id="container">
-        <div id="illustration"><?php include __DIR__ . './assets/pictos/illustration.svg'; ?></div>
+        <div id="illustration"><?php include __DIR__ . '/assets/pictos/illustration.svg'; ?></div>
     </div>
     
 	<?php include __DIR__ . "/articles/$lang/motiver.php"; ?>
