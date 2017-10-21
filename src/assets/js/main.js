@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 
 function initIllustration() {
-    var animation_time = 25;
+    var animation_time = 250;
     var s = Snap("#illustration svg");
 
     $('#motiver').css({'cursor': 'pointer', 'opacity': 0});
