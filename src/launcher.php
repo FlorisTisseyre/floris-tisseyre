@@ -6,7 +6,7 @@
 
     <div id="identite">
         <h1 class="ui header">Floris Tisseyre</h1>
-        <h2 class="ui header">Manager 3.0</h2>
+        <h2 class="ui header">Agile coach</h2>
     </div>
 
     <div class="ui header">

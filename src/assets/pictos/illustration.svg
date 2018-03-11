@@ -82,7 +82,7 @@
       <path fill="url(#SVGID_11_)" d="M 492.129 347.068 L 474.666 347.068 C 474.515 347.068 474.37 346.948 474.353 346.798 C 474.194 345.36 475.016 339.527 488.634 340.227 C 492.068 340.403 492.557 345.499 492.432 346.796 C 492.419 346.948 492.279 347.068 492.129 347.068 Z"/>
     </g>
     <text x="664.465" y="383.46" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 26.3px; white-space: pre;" id="floris">Floris Tisseyre</text>
-    <text x="707.445" y="419.541" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 18.8px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="manager">Manager 3.0</text>
+    <text x="707.445" y="419.541" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 18.8px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="manager">Agile coach</text>
     <text x="670" y="450" style="fill: rgb(0, 0, 0); font-family: Martel; font-size: 13.5px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="mail">f.tisseyre@gmail.com</text>
     <text x="670" y="475" style="fill: rgb(0, 0, 0); font-family: Martel; font-size: 13.5px; white-space: pre;" transform="matrix(1.048521, 0, 0, 1.048519, -75.500854, -25.185547)" id="tel">06 52 46 20 39</text>
   </g>
@@ -185,11 +185,11 @@
     <text x="-160" y="8" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase1">Vous êtes convaincus que la richesse vient des hommes, </text>
     <text x="-150" y="38" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase2">qu'être manager signifie être au service de son équipe,</text>
     <text x="-120" y="68" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase3">que l'informatique pourrait faire la différence ?</text>
-    <text x="-20" y="118" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase4">Mes convictions managériales :</text>
+    <text x="-90" y="118" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 24px; white-space: pre;" id="phrase4">Mes convictions :</text>
   </g>
   <g transform="matrix(1, 0, 0, 1, 50, -12)">
     <path d="M -66.095 579.949 L 862.908 579.949" style="fill: rgb(216, 216, 216); stroke-width: 8; stroke: rgb(51, 103, 126); stroke-linecap: round;" id="timeline"/>
-    <g transform="matrix(1, 0, 0, 1, -25, 0)" id="diplome">
+    <g transform="matrix(1, 0, 0, 1, -50, 0)" id="diplome">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">ESIGELEC</text>
@@ -197,7 +197,7 @@
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2003</text>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 159.089417, -1.647627)" id="developpeur">
+    <g transform="matrix(1, 0, 0, 1, 100, -1.647627)" id="developpeur">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">STERIA</text>
@@ -205,7 +205,7 @@
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2005</text>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 334.843689, -1.399073)" id="chefprojet">
+    <g transform="matrix(1, 0, 0, 1, 250, -1.399073)" id="chefprojet">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Arcelor Mittal</text>
@@ -213,7 +213,7 @@
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2008</text>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 504.315491, -0.900504)" id="changeleader">
+    <g transform="matrix(1, 0, 0, 1, 400, -0.900504)" id="changeleader">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Arcelor Mittal</text>
@@ -221,13 +221,21 @@
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2014</text>
     </g>
-    <g transform="matrix(1, 0, 0, 1, 686.532471, -1.159073)" id="itmanager">
+    <g transform="matrix(1, 0, 0, 1, 550, -1.159073)" id="itmanager">
       <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
       <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
         <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Anaqua Services</text>
-        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">IT Manager</text>
+        <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">IT Manager 3.0</text>
       </g>
       <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2015</text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 700, -1.159073)" id="coachagile">
+      <ellipse style="fill: rgb(51, 103, 126); stroke: rgb(230, 237, 242); stroke-width: 6;" cx="21.89" cy="580.716" rx="18.347" ry="18.347"/>
+      <g transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -311.131104, 192.002243)">
+          <text x="16.576" y="528.871" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;">Altran</text>
+          <text x="34.334" y="546.792" style="fill: rgb(51, 103, 126); font-family: Martel; font-size: 14px; white-space: pre;" id="coachagile-txt">Coach Agile</text>
+      </g>
+      <text x="-16.449" y="501.816" transform="matrix(0.707107, -0.707106, 0.707107, 0.707107, -309.989758, 190.097326)" style="fill: rgb(12, 78, 126); font-family: Martel; font-size: 29px; white-space: pre;">2018</text>
     </g>
   </g>
   <g transform="matrix(1.808866, 0, 0, 1.822036, -110.387726, -233.910583)" id="entreprise">

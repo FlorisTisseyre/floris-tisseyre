@@ -20,6 +20,7 @@ if(isset($_GET['lang']) && $_GET['lang'] === 'en') {
 <?php include __DIR__ . "/experiences/$lang/chefprojet.php"; ?>
 <?php include __DIR__ . "/experiences/$lang/changeleader.php"; ?>
 <?php include __DIR__ . "/experiences/$lang/itmanager.php"; ?>
+<?php include __DIR__ . "/experiences/$lang/coachagile.php"; ?>
 
 <div class="ui massive blue message" id="web-link">
     <?php

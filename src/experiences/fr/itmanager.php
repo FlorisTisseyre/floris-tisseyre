@@ -6,7 +6,7 @@
                     <img src="/src/images/experiences/itmanager.jpg">
                 </div>
                 <div class="content">
-                    <a class="header">IT Manager</a>
+                    <a class="header">IT Manager 3.0</a>
                     <div class="meta">
                         <span class="date">Anaqua Services</span>
                     </div>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="extra content">
                     <i class="calendar outline icon"></i>
-                    Depuis 2015
+                    2015 à 2018
                 </div>
             </div>
         </div>

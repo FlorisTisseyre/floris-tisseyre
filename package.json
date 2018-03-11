@@ -2,10 +2,11 @@
   "name": "floris-tisseyre",
   "version": "0.0.1",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run style4\"",
+    "start": "concurrently 'npm run server' 'npm run style' 'npm run style-print'",
     "server": "php -S localhost:3000",
-    "style4": "lessc src\\assets\\less\\main.less src\\assets\\css\\main.css",
-    "less-watch-compiler": "less-watch-compiler src\\assets\\less src\\assets\\css"
+    "style": "lessc src/assets/less/main.less src/assets/css/main.css",
+    "style-print": "lessc src/assets/less/print.less src/assets/css/print.css",
+    "less-watch-compiler": "less-watch-compiler src/assets/less src/assets/css"
   },
   "dependencies": {
     "jqcloud2": "^2.0.3",

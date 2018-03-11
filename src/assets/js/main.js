@@ -16,6 +16,7 @@ function initIllustration() {
     $('#chefprojet').css('cursor', 'pointer');
     $('#changeleader').css('cursor', 'pointer');
     $('#itmanager').css('cursor', 'pointer');
+    $('#coachagile').css('cursor', 'pointer');
 
     $('#phrase1').css('opacity', 0);
     $('#phrase2').css('opacity', 0);
@@ -38,6 +39,7 @@ function initIllustration() {
     $('#chefprojet').css('opacity', 0);
     $('#changeleader').css('opacity', 0);
     $('#itmanager').css('opacity', 0);
+    $('#coachagile').css('opacity', 0);
 
     var entreprise = s.select('#entreprise');
     //var entrepriseScale = 1.5;
@@ -69,6 +71,8 @@ function initIllustration() {
     changeleader.transform('T1000,0');
     var itmanager = s.select('#itmanager');
     itmanager.transform('T1000,0');
+    var coachagile = s.select('#coachagile');
+    coachagile.transform('T1000,0');
 
 
     // on démarre
@@ -186,7 +190,7 @@ function initIllustration() {
             opacity: 1
         }, animation_time * 4, mina.easeout);
         diplome.animate({
-            transform: 'T-30,0'
+            transform: 'T-50,0'
         }, animation_time * 4, mina.easeout, animateDeveloppeur);
     }
 
@@ -195,7 +199,7 @@ function initIllustration() {
             opacity: 1
         }, animation_time * 4, mina.easeout);
         developpeur.animate({
-            transform: 'T140,0'
+            transform: 'T100,0'
         }, animation_time * 4, mina.easeout, animateChefprojet);
     }
 
@@ -204,7 +208,7 @@ function initIllustration() {
             opacity: 1
         }, animation_time * 4, mina.easeout);
         chefprojet.animate({
-            transform: 'T310,0'
+            transform: 'T250,0'
         }, animation_time * 4, mina.easeout, animateChangeleader);
     }
 
@@ -213,7 +217,7 @@ function initIllustration() {
             opacity: 1
         }, animation_time * 4, mina.easeout);
         changeleader.animate({
-            transform: 'T480,0'
+            transform: 'T400,0'
         }, animation_time * 4, mina.easeout, animateItmanager);
     }
 
@@ -222,7 +226,16 @@ function initIllustration() {
             opacity: 1
         }, animation_time * 4, mina.easeout);
         itmanager.animate({
-            transform: 'T650,0'
+            transform: 'T550,0'
+        }, animation_time * 4, mina.easeout, animateCoachagile);
+    }
+
+    function animateCoachagile() {
+        coachagile.animate({
+            opacity: 1
+        }, animation_time * 4, mina.easeout);
+        coachagile.animate({
+            transform: 'T700,0'
         }, animation_time * 4, mina.easeout, animateAvantMailEtTel);
     }
 
@@ -474,6 +487,28 @@ function initIllustration() {
             {text: "Patents", weight: 1},
             {text: "Trademarks", weight: 1},
             {text: "Finance", weight: 1}
+        ]
+    );
+
+    initExperience('coachagile', 'fr',
+        [
+            {text: "XP", weight: 24},
+            {text: "Scrum", weight: 20},
+            {text: "Kanban", weight: 20},
+            {text: "SAFE", weight: 20},
+            {text: "Ateliers", weight: 10},
+            {text: "Formations", weight: 10}
+        ]
+    );
+
+    initExperience('coachagile', 'en',
+        [
+            {text: "XP", weight: 24},
+            {text: "Scrum", weight: 20},
+            {text: "Kanban", weight: 20},
+            {text: "SAFE", weight: 20},
+            {text: "Workshops", weight: 10},
+            {text: "Trainings", weight: 10}
         ]
     );
 }
